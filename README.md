@@ -38,16 +38,7 @@
     Finder or explorer will open `package` folder.
     Open `User` folder in that.
 
-1. Make a new .sublime-theme file.
-    The file name should be `*THEME_NAME*.sublime-theme`.
-    If it was default, should be `Default.sublime-theme `.
-    If you're using `Soda Dark 3` theme, should be `Soda Dark 3.sublime-theme`.
-
-    Make sure you must place the file into Packages/User folder.
-    
-    ![](https://raw.githubusercontent.com/kujiy/how-to-change-sublime-minimap-color/master/0308-06.png)
-
-1. Edit the file
+1. **Create a new file** named `*THEME_NAME*.sublime-theme` .
     Put lines below into the file.
 
     ```
@@ -75,6 +66,17 @@
     ]
 
     ```
+    The file name should be `*THEME_NAME*.sublime-theme`.
+    If it was default, should be `Default.sublime-theme `.
+    If you're using `Soda Dark 3` theme, should be `Soda Dark 3.sublime-theme`.
+
+    Make sure you must place the file into Packages/User folder.
+    
+    ![](https://raw.githubusercontent.com/kujiy/how-to-change-sublime-minimap-color/master/0308-06.png)
+    
+    Perhaps you can just run this command below.
+    
+          notepad %HOMEPATH%\AppData\Roaming\Sublime Text 3\Packages\User\Default.sublime-theme
 
 1. Restart your Sublime Text 3.
 
@@ -87,6 +89,7 @@ Make sure you must place them correct `Packages/User` folder.
 
 On my windows 8.1 machine, it should be here.
 
+`%HOMEPATH%\AppData\Roaming\Sublime Text 3\Packages\User\Default.sublime-theme`
 `C:\Users\USERNAME\AppData\Roaming\Sublime Text 3\Packages\User\Default.sublime-theme`
 
 
